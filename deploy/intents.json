@@ -1,0 +1,41 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "control o.t.c.",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "I´m bored",
+                        "cancel",
+                        "oh no wrong"
+                        ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "thats all",
+                        "Bye",
+                        "See you",
+                        "Leave o.t.c.",
+                        "Exit"
+                        ]
+                },
+                {
+                    "name": "VMCountIntent",
+                    "slots": [],
+                    "samples": [
+                        "How many e.c.s.",
+                        "How many servers",
+                        "whats running"
+                        ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

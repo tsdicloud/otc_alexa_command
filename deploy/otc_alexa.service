@@ -1,0 +1,18 @@
+[Unit]
+Description=Open Telekom Cloud Control Center
+After=network.target
+
+[Service]
+Type=simple
+User=linux
+ExecStart=/usr/bin/python3 /home/linux/otc_alexa_command/src/main.py 
+Environment=API_KEX=test
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+Restart=on-failure
+RestartPreventExitStatus=255
+
+[Install]
+WantedBy=multi-user.target
+Alias=otc_alexa.service
+

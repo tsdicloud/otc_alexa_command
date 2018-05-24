@@ -1,0 +1,52 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "telekom cloud control",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "Langweilig",
+                        "Abbruch",
+                        "Abbrechen"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Fertig",
+                        "Ende",
+                        "Beenden",
+                        "Beende Cloud Control",
+                        "Beende Telekom Cloud Control",
+                        "Tschüss"
+                    ]
+                },
+                {
+                    "name": "VMCountIntent",
+                    "slots": [],
+                    "samples": [
+                        "Wieviele e.c.s.",
+                        "Wieviele Server",
+                        "Wieviele Maschinen"
+                    ]
+                },
+                {
+                    "name": "VolCountIntent",
+                    "slots": [],
+                    "samples": [
+                        "Wieviel Plattenspeicher",
+                        "Wieviele Volumes",
+                        "Wieviele Platten",
+                        "Wieviel Plattenplatz"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

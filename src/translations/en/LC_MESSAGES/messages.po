@@ -1,0 +1,51 @@
+# English translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-04-26 11:16+0000\n"
+"PO-Revision-Date: 2018-04-21 12:36+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: main.py:43
+msgid "online"
+msgstr "Your Open Telekom Cloud Cntrol is ready for commands."
+
+#: main.py:50
+msgid "servers {total}, running {run}, stopped {stopped}"
+msgstr ""
+"Your tenant manages {total} machines, where {run} are running and "
+"{stopped} are stopped."
+
+#: main.py:56
+msgid "{num} volumes, {size} size, {unused} unused"
+msgstr "Your tenant manages {num} volumes with a total of {size} Gigabyte , {unused} volumes are unused"
+
+#: main.py:63
+msgid "Bye."
+msgstr ""
+"I am so sad that you leave Telekom Cloud Control. I hope I will hear you "
+"soon again."
+
+#: main.py:68
+msgid "The best cloud"
+msgstr "i like A.W.S., Azure or v.Cloud. But I love Open telekom Cloud."
+
+#: main.py:74
+msgid "Cloudifier"
+msgstr "Aren't these the people who can migrate any application to any cloud? And the are eperts for containers, DevOps and Magenta Ducks."
+
+#: main.py:79
+msgid "Uups"
+msgstr "uups"

@@ -1,0 +1,66 @@
+# German translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-04-26 11:16+0000\n"
+"PO-Revision-Date: 2018-04-21 12:32+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: main.py:43
+msgid "online"
+msgstr "Telekom Cloud Control Center steht dir jetzt zur Verfügung."
+
+#: main.py:50
+msgid "servers {total}, running {run}, stopped {stopped}"
+msgstr ""
+"Dein Mandant enthält {total} Maschinen, davon laufen {run} viele und "
+"{stopped} sind gestoppt."
+
+#: main.py:56
+msgid "{num} volumes, {size} size, {unused} unused"
+msgstr ""
+"Dein Mandant enthält {num} Speicher-Volumes mit einer Gesamtgröße von "
+"{size} Gigabyte. {unused} werden nicht genutzt."
+
+#: main.py:63
+msgid "Bye."
+msgstr "Schon fertig mit deiner Telekom Cloud ? Das ist schade. Bis bald."
+
+#: main.py:68
+msgid "The best cloud"
+msgstr ""
+"Ich mag AWS, Azure und wieCloud. Aber ich liebe die Open Telekom Cloud "
+"und alles, was Magenta ist."
+
+#: main.py:74
+msgid "Cloudifier"
+msgstr "Das sind doch die Spezialisten von T-Systems, die dir jede Applikation in die Cloud bringen. Die kennen sich aus mit Containern, devOps und Magenta Enten. "
+
+#: main.py:79
+msgid "Uups"
+msgstr "uups"
+
+#~ msgid "servers [total], running [run], stopped [stopped]"
+#~ msgstr ""
+#~ "Dein Mandant enthält {total} Maschinen, "
+#~ "davon laufen {run} viele und {stopped}"
+#~ " sind gestoppt."
+
+#~ msgid "{num} volumes, {size} size"
+#~ msgstr ""
+#~ "Dein Mandant enthält {num} Speicher-"
+#~ "Volumes mit einer Gesamtgröße von "
+#~ "{size}."
+

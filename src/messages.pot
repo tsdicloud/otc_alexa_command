@@ -1,0 +1,47 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-04-26 11:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: main.py:43
+msgid "online"
+msgstr ""
+
+#: main.py:50
+msgid "servers {total}, running {run}, stopped {stopped}"
+msgstr ""
+
+#: main.py:56
+msgid "{num} volumes, {size} size, {unused} unused"
+msgstr ""
+
+#: main.py:63
+msgid "Bye."
+msgstr ""
+
+#: main.py:68
+msgid "The best cloud"
+msgstr ""
+
+#: main.py:74
+msgid "Cloudifier"
+msgstr ""
+
+#: main.py:79
+msgid "Uups"
+msgstr ""
+

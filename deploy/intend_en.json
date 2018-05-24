@@ -1,0 +1,55 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "telekom cloud control",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "I'm' bored",
+                        "cancel",
+                        "stop",
+                        "oh no wrong"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "that's all",
+                        "Bye",
+                        "See you",
+                        "End",
+                        "End cloud control",
+                        "End telekom cloud control",
+                        "Leave telekom cloud control",
+                        "Exit"
+                    ]
+                },
+                {
+                    "name": "VMCountIntent",
+                    "slots": [],
+                    "samples": [
+                        "How many e.c.s.",
+                        "How many servers",
+                        "How many machines"
+                    ]
+                },
+                {
+                    "name": "VolCountIntent",
+                    "slots": [],
+                    "samples": [
+                        "How many storage",
+                        "How many volumes",
+                        "How many disks",
+                        "How many disk space"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
