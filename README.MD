@@ -10,23 +10,29 @@ Use script `install otc_service.sh` on a small machine with EIP on the internet.
 ```
 
 
-## OPen up internal firewall on centos 
+## Open up internal firewall on centos 
 ```
 > sudo firewall-cmd --permanent --zone=public --add-port=5443/tcp --add-service=https
 ```
 
 ## Multi language support ##
+
+Create a language label file (once):
 ```
 pybabel extract -F babel.cfg -o messages.pot .
 ```
-creates a language label file.
 
+Start a new language (e.g. for language de):
 ```
 pybabel init -i messages.pot -d translations -l de
+'''
+
+Update the language label translation file with new/chaged labels:
+'''
 pybabel update -i messages.pot -d translations 
 ```
-create the required files for language de.
 
+Finally, compile the messages:
 ```
 pybabel compile -d translations
 ```

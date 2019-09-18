@@ -68,11 +68,25 @@ def bestcloud(dummy):
     best_text = gettext('The best cloud')  
     return statement(best_text)  
 
-# Define shutdown message  
 @ask.intent('Cloudifier')  
 def cloudifier(dummy):  
     best_text = gettext('Cloudifier')  
     return statement(best_text)  
+
+@ask.intent('MultiCloud')  
+def multicloud(dummy):  
+    text = gettext('MultiCloud')  
+    return statement(text) 
+
+@ask.intent('Digital')  
+def digital(dummy):  
+    text = gettext('Digital')  
+    return statement(text) 
+
+@ask.intent('DevOpsService')  
+def devopsaas(dummy):  
+    text = gettext('DevOpsService')  
+    return statement(text) 
 
 @app.route('/<path:dummy>')  
 def fallback(dummy):  

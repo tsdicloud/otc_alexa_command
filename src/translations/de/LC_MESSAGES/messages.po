@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-26 11:16+0000\n"
+"POT-Creation-Date: 2019-09-18 09:53+0000\n"
 "PO-Revision-Date: 2018-04-21 12:32+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: main.py:43
 msgid "online"
@@ -25,8 +25,8 @@ msgstr "Telekom Cloud Control Center steht dir jetzt zur Verfügung."
 #: main.py:50
 msgid "servers {total}, running {run}, stopped {stopped}"
 msgstr ""
-"Dein Mandant enthält {total} Maschinen, davon laufen {run} viele und "
-"{stopped} sind gestoppt."
+"Dein Mandant enthält {total} Maschinen, davon laufen {run} und {stopped} "
+"sind gestoppt."
 
 #: main.py:56
 msgid "{num} volumes, {size} size, {unused} unused"
@@ -44,23 +44,40 @@ msgstr ""
 "Ich mag AWS, Azure und wieCloud. Aber ich liebe die Open Telekom Cloud "
 "und alles, was Magenta ist."
 
-#: main.py:74
+#: main.py:73
 msgid "Cloudifier"
-msgstr "Das sind doch die Spezialisten von T-Systems, die dir jede Applikation in die Cloud bringen. Die kennen sich aus mit Containern, devOps und Magenta Enten. "
+msgstr ""
+"Das sind doch die Spezialisten von T-Systems, die dir jede Applikation in"
+" die Cloud bringen. Die kennen sich aus mit Containern, devOps und "
+"Magenta Enten. "
 
-#: main.py:79
+#: main.py:78
+msgid "MultiCloud"
+msgstr ""
+"Ich selbst bin MultiCloud."
+"Du sprichst mit AWS, aber der Service kommt von der Open Telekom Cloud."
+
+#: main.py:83
+msgid "Digital"
+msgstr ""
+"T Systems liefert nicht nur Plattformen und Infrastruktur."
+"In der Digital Solutions, wir haben viele nette Kollegen, die dafür brennen "
+"Kunden bei ihrem Weg in die Digitale Welt zu begleiten. Wir haben DevOps Experten, "
+"die wissen, wie man wirklich schnell liefert und die eine der modernsten Toolchains "
+"gleich mitbringen. " 
+"Wir haben Architekten und Berater, die nicht nur Clouds wie Open Telekom Cloud, AWS, "
+"Azure oder Google Cloud beherrschen. Sie helfen auch pragmatisch, um "
+"schnell, sicher und zu vernünftigen Kosten einen Geschäftsnutzen aus der Cloud "
+"zu ziehen. Oder wie unser Chef sagt: wir sind die Klempner der Digitalisierung!"
+
+#: main.py:88
+msgid "DevOpsService"
+msgstr ""
+"Das ist doch die DevOps Toolchain von T-Systems, die alle notwendigen DevOps-"
+"Werkszeuge auf Knopfdruck in Deiner Cloud zur Verfügung stellt."
+
+
+#: main.py:93
 msgid "Uups"
 msgstr "uups"
-
-#~ msgid "servers [total], running [run], stopped [stopped]"
-#~ msgstr ""
-#~ "Dein Mandant enthält {total} Maschinen, "
-#~ "davon laufen {run} viele und {stopped}"
-#~ " sind gestoppt."
-
-#~ msgid "{num} volumes, {size} size"
-#~ msgstr ""
-#~ "Dein Mandant enthält {num} Speicher-"
-#~ "Volumes mit einer Gesamtgröße von "
-#~ "{size}."
 

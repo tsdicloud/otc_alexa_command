@@ -6,10 +6,9 @@
                 {
                     "name": "AMAZON.CancelIntent",
                     "samples": [
-                        "I'm' bored",
-                        "cancel",
-                        "stop",
-                        "oh no wrong"
+                        "Langweilig",
+                        "Abbruch",
+                        "Abbrechen"
                     ]
                 },
                 {
@@ -19,34 +18,94 @@
                 {
                     "name": "AMAZON.StopIntent",
                     "samples": [
-                        "that's all",
-                        "Bye",
-                        "See you",
-                        "End",
-                        "End cloud control",
-                        "End telekom cloud control",
-                        "Leave telekom cloud control",
-                        "Exit"
+                        "Fertig",
+                        "Ende",
+                        "Beenden",
+                        "Beende Cloud Control",
+                        "Beende Telekom Cloud Control",
+                        "Tschüss"
                     ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
                 },
                 {
                     "name": "VMCountIntent",
                     "slots": [],
                     "samples": [
-                        "How many e.c.s.",
-                        "How many servers",
-                        "How many machines"
+                        "Anzahl VM",
+                        "Anzahl Server",
+                        "Anzahl Maschinen",
+                        "Wieviele e.c.s.",
+                        "Wieviele Server",
+                        "Wieviele Maschinen"
                     ]
                 },
                 {
                     "name": "VolCountIntent",
                     "slots": [],
                     "samples": [
-                        "How many storage",
-                        "How many volumes",
-                        "How many disks",
-                        "How many disk space"
+                        "Anzahl Volumes",
+                        "Anzahl Platten",
+                        "Wieviel Plattenspeicher",
+                        "Wieviele Volumes",
+                        "Wieviele Platten",
+                        "Wieviel Plattenplatz"
                     ]
+                },
+                {
+                    "name": "BestCloud",
+                    "slots": [],
+                    "samples": [
+                        "Was ist die beste Telekom Cloud",
+                        "Was ist die beste Cloud",
+                        "beste Cloud"
+                    ]
+                },
+                {
+                    "name": "Cloudifier",
+                    "slots": [],
+                    "samples": [
+                        "der Cloudifier",
+                        "Wer sind die Cloudifier",
+                        "Was ist der Cloudifier",
+                        "Cloudifier"
+                    ]
+                },
+                {
+                    "name": "Digital",
+                    "slots": [],
+                    "samples": [
+                        "Digitale Lösungen",
+                        "Was sind Digitale Solutions",
+                        "Was sind Digitale Lösungen",
+                        "Digital Solutions"
+                    ]
+                },
+                {
+                    "name": "DevOpsService",
+                    "slots": [],
+                    "samples": [
+                        "DevOps as a service",
+                        "Was ist DevOps as a Service",
+                        "Was ist die DevOps toolchain",
+                        "DevOps toolchain"
+                    ]
+                },
+                {
+                    "name": "MultiCloud",
+                    "slots": [],
+                    "samples": [
+                        "MultiCloud",
+                        "Was ist Multicloud",
+                        "Hast du ein Beispiel für MultiCloud",
+                        "ein Beispiel für MultiCloud"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
                 }
             ],
             "types": []

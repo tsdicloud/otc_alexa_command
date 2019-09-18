@@ -6,9 +6,10 @@
                 {
                     "name": "AMAZON.CancelIntent",
                     "samples": [
-                        "Langweilig",
-                        "Abbruch",
-                        "Abbrechen"
+                        "I'm' bored",
+                        "cancel",
+                        "stop",
+                        "oh no wrong"
                     ]
                 },
                 {
@@ -18,31 +19,87 @@
                 {
                     "name": "AMAZON.StopIntent",
                     "samples": [
-                        "Fertig",
-                        "Ende",
-                        "Beenden",
-                        "Beende Cloud Control",
-                        "Beende Telekom Cloud Control",
-                        "Tschüss"
+                        "that's all",
+                        "Bye",
+                        "See you",
+                        "End",
+                        "End cloud control",
+                        "End telekom cloud control",
+                        "Leave telekom cloud control",
+                        "Exit"
                     ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
                 },
                 {
                     "name": "VMCountIntent",
                     "slots": [],
                     "samples": [
-                        "Wieviele e.c.s.",
-                        "Wieviele Server",
-                        "Wieviele Maschinen"
+                        "number of machines",
+                        "number of servers",
+                        "How many e.c.s.",
+                        "How many servers",
+                        "How many machines"
                     ]
                 },
                 {
                     "name": "VolCountIntent",
                     "slots": [],
                     "samples": [
-                        "Wieviel Plattenspeicher",
-                        "Wieviele Volumes",
-                        "Wieviele Platten",
-                        "Wieviel Plattenplatz"
+                        "disks",
+                        "number of volumes",
+                        "storage size",
+                        "How many storage",
+                        "How many volumes",
+                        "How many disks",
+                        "How many disk space"
+                    ]
+                },
+                {
+                    "name": "BestCloud",
+                    "slots": [],
+                    "samples": [
+                        "What is the best cloud",
+                        "best cloud"
+                    ]
+                },
+                {
+                    "name": "Cloudifier",
+                    "slots": [],
+                    "samples": [
+                        "Who are the Cloudifiers",
+                        "What is the Cloudifier",
+                        "Cloudifier"
+                    ]
+                },
+                {
+                    "name": "Digital",
+                    "slots": [],
+                    "samples": [
+                        "What are Digital Solutions",
+                        "Digital Solutions"
+                    ]
+                },
+                {
+                    "name": "DevOpsService",
+                    "slots": [],
+                    "samples": [
+                        "DevOps as a service",
+                        "What is DevOps as a Service",
+                        "What is the DevOps toolchain",
+                        "DevOps toolchain"
+                    ]
+                },
+                {
+                    "name": "MultiCloud",
+                    "slots": [],
+                    "samples": [
+                        "DevOps as a service",
+                        "What is MultiCloud",
+                        "Do you have an example for multicloud",
+                        "an example for multicloud"
                     ]
                 }
             ],
