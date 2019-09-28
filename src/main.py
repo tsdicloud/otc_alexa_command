@@ -47,51 +47,51 @@ def start_skill():
 @ask.intent("VMCountIntent")  
 def vm_count():  
     count = simple_os_queries.vm_count()  
-    count_msg = gettext('servers {total}, running {run}, stopped {stopped}').format(total=count[0],run=count[1], stopped=count[2])
+    count_msg = gettext('servers {total}, running {run}, stopped {stopped}').format(total=count[0],run=count[1], stopped=count[2]).encode('utf-8')
     return question(count_msg)
 
 @ask.intent("VolCountIntent")
 def vol_count():
     volsize = simple_os_queries.total_volume_size()
-    volsize_msg = gettext('{num} volumes, {size} size, {unused} unused').format(num=volsize[0],size=volsize[1],unused=volsize[2])
+    volsize_msg = gettext('{num} volumes, {size} size, {unused} unused').format(num=volsize[0],size=volsize[1],unused=volsize[2]).encode('utf-8')
     return question(volsize_msg)
 
 # Define shutdown message  
 @ask.intent("AMAZON.StopIntent")
 @ask.intent("AMAZON.CancelIntent")
 def shutdown():
-    bye_text=gettext("Bye.")
+    bye_text=gettext("Bye.").encode('utf-8')
     return statement(bye_text)
  
 @ask.intent('BestCloud')  
 def bestcloud(dummy):  
-    best_text = gettext('The best cloud') 
+    best_text = gettext('The best cloud').encode('utf-8') 
     return statement(best_text)  
 
 @ask.intent('Cloudifier')  
 def cloudifier(dummy):  
-    best_text = gettext('Cloudifier')  
+    best_text = gettext('Cloudifier').encode('utf-8')  
     return statement(best_text)  
 
 @ask.intent('MultiCloud')  
 def multicloud(dummy):  
-    text = gettext('MultiCloud')  
+    text = gettext('MultiCloud').encode('utf-8')  
     return statement(text) 
 
 @ask.intent('Digital')  
 def digital(dummy):  
     text = gettext('Digital').encode('utf-8')
-    import pdb; pdb.set_trace()  
+    #import pdb; pdb.set_trace()  
     return statement(text) 
 
 @ask.intent('DevOpsService')  
 def devopsaas(dummy):  
-    text = gettext('DevOpsService')  
+    text = gettext('DevOpsService').encode('utf-8')  
     return statement(text) 
 
 @app.route('/<path:dummy>')  
 def fallback(dummy):  
-    uups_text = gettext('Uups')  
+    uups_text = gettext('Uups').encode('utf-8')  
     return statement(uups_text)  
 
 # Main function  

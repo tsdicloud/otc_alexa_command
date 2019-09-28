@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-18 09:53+0000\n"
+"POT-Creation-Date: 2019-09-28 09:17+0000\n"
 "PO-Revision-Date: 2018-04-21 12:36+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: main.py:43
 msgid "online"
@@ -53,30 +53,27 @@ msgstr ""
 #: main.py:78
 msgid "MultiCloud"
 msgstr ""
-"I am MultiCloud myself."
-"You talk to AWS, but the service comes from Open Telekom Cloud."
-
+"I am MultiCloud myself.You talk to AWS, but the service comes from Open "
+"Telekom Cloud."
 
 #: main.py:83
 msgid "Digital"
 msgstr ""
-"T Systems does not only deliver platforms and infrastructure."
-"In Digital Solutions, we have amazing collegues, burning to accompany "
-"customers on their path into the digital world. We have DevOps experts, "
-"who know how to deliver really fast and bring one of the most modern Devops "
-"toolchains in the backpack. " 
-"We have architects and consultants, not only have clouds like Open Telekom Cloud, AWS, "
-"Azure or Google Cloud under complete control. They help also pragmatically to exploit "
-"the business benefits of cloud fastly, savely and with reasonable costs. "
-"or to cite our boss: we are the plumbers of Digitization!"
-
+"T Systems does not only deliver platforms and infrastructure.In Digital "
+"Solutions, we have amazing collegues, burning to accompany customers on "
+"their path into the digital world. We have DevOps experts, who know how "
+"to deliver really fast and bring one of the most modern Devops toolchains"
+" in the backpack. We have architects and consultants, not only have "
+"clouds like Open Telekom Cloud, AWS, Azure or Google Cloud under complete"
+" control. They help also pragmatically to exploit the business benefits "
+"of cloud fastly, savely and with reasonable costs. or to cite our boss: "
+"we are the plumbers of Digitization!"
 
 #: main.py:88
 msgid "DevOpsService"
 msgstr ""
-"Isn´t this DevOps Toolchain of T-Systems bringing all the neccessary DevOps "
-"DevOps tools to your cloud with the push of a button."
-
+"Isn´t this DevOps Toolchain of T-Systems bringing all the neccessary "
+"DevOps DevOps tools to your cloud with the push of a button."
 
 #: main.py:93
 msgid "Uups"
