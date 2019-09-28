@@ -65,7 +65,7 @@ def shutdown():
  
 @ask.intent('BestCloud')  
 def bestcloud(dummy):  
-    best_text = gettext('The best cloud')  
+    best_text = gettext('The best cloud') 
     return statement(best_text)  
 
 @ask.intent('Cloudifier')  
@@ -80,7 +80,8 @@ def multicloud(dummy):
 
 @ask.intent('Digital')  
 def digital(dummy):  
-    text = gettext('Digital')  
+    text = gettext('Digital').encode('utf-8')
+    import pdb; pdb.set_trace()  
     return statement(text) 
 
 @ask.intent('DevOpsService')  

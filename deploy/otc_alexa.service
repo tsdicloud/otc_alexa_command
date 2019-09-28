@@ -5,9 +5,10 @@ After=network.target
 [Service]
 Type=simple
 User=linux
-ExecStart=/usr/bin/python3 /home/linux/otc_alexa_command/src/main.py 
+ExecStart=/usr/bin/python /home/linux/alexa-opentelekom/otc_alexa_command/src/main.py 
 Environment=API_KEX=test
 ExecReload=/bin/kill -HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
 KillMode=process
 Restart=on-failure
 RestartPreventExitStatus=255
