@@ -55,26 +55,27 @@ msgstr ""
 msgid "MultiCloud"
 msgstr ""
 "Ich selbst bin MultiCloud."
-"Du sprichst mit AWS, aber der Service kommt von der Open Telekom Cloud."
+" Du sprichst mit mir über AWS, aber der Service kommt von der "
+"Open Telekom Cloud."
 
 #: main.py:83
 msgid "Digital"
 msgstr ""
 "T Systems liefert nicht nur Plattformen und Infrastruktur."
-"In der Digital Solutions, wir haben viele nette Kollegen, die dafür brennen "
+" In der Digital Solutions haben wir viele nette Kollegen, die dafür brennen "
 "Kunden bei ihrem Weg in die Digitale Welt zu begleiten. Wir haben DevOps Experten, "
 "die wissen, wie man wirklich schnell liefert und die eine der modernsten Toolchains "
-"gleich mitbringen. " 
-"Wir haben Architekten und Berater, die nicht nur Clouds wie Open Telekom Cloud, AWS, "
+"gleich mitbringen." 
+" Wir haben Architekten und Berater, die nicht nur Clouds wie Open Telekom Cloud, AWS, "
 "Azure oder Google Cloud beherrschen. Sie helfen auch pragmatisch, um "
-"schnell, sicher und zu vernünftigen Kosten einen Geschäftsnutzen aus der Cloud "
-"zu ziehen. Oder wie unser Chef sagt: wir sind die Klempner der Digitalisierung!"
+"schnell, sicher und zu vernünftigen Kosten einen Geschäftsnutzen aus der Cloud zu ziehen."
+" Oder wie unser Chef sagt: wir sind die Klempner der Digitalisierung!"
 
 #: main.py:88
 msgid "DevOpsService"
 msgstr ""
 "Das ist doch die DevOps Toolchain von T-Systems, die alle notwendigen DevOps-"
-"Werkszeuge auf Knopfdruck in Deiner Cloud zur Verfügung stellt."
+"Werkzeuge auf Knopfdruck in Deiner Cloud zur Verfügung stellt."
 
 
 #: main.py:93
