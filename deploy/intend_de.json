@@ -1,15 +1,14 @@
-{
+{{
     "interactionModel": {
         "languageModel": {
-            "invocationName": "telekom cloud control",
+            "invocationName": "te systems",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
                     "samples": [
-                        "I'm' bored",
-                        "cancel",
-                        "stop",
-                        "oh no wrong"
+                        "Langweilig",
+                        "Abbruch",
+                        "Abbrechen"
                     ]
                 },
                 {
@@ -19,14 +18,12 @@
                 {
                     "name": "AMAZON.StopIntent",
                     "samples": [
-                        "that's all",
-                        "Bye",
-                        "See you",
-                        "End",
-                        "End cloud control",
-                        "End telekom cloud control",
-                        "Leave telekom cloud control",
-                        "Exit"
+                        "Fertig",
+                        "Ende",
+                        "Beenden",
+                        "Beende Cloud Control",
+                        "Beende Telekom Cloud Control",
+                        "Tschüss"
                     ]
                 },
                 {
@@ -37,40 +34,48 @@
                     "name": "VMCountIntent",
                     "slots": [],
                     "samples": [
-                        "number of machines",
-                        "number of servers",
-                        "How many e.c.s.",
-                        "How many servers",
-                        "How many machines"
+                        "Anzahl VM",
+                        "Anzahl Server",
+                        "Anzahl Maschinen",
+                        "Wieviele e.c.s.",
+                        "Wieviele Server",
+                        "Wieviele Maschinen"
                     ]
                 },
                 {
                     "name": "VolCountIntent",
                     "slots": [],
                     "samples": [
-                        "disks",
-                        "number of volumes",
-                        "storage size",
-                        "How many storage",
-                        "How many volumes",
-                        "How many disks",
-                        "How many disk space"
+                        "Anzahl Volumes",
+                        "Anzahl Platten",
+                        "Wieviel Plattenspeicher",
+                        "Wieviele Volumes",
+                        "Wieviele Platten",
+                        "Wieviel Plattenplatz"
                     ]
                 },
                 {
                     "name": "BestCloud",
                     "slots": [],
                     "samples": [
-                        "What is the best cloud",
-                        "best cloud"
+                        "Was ist die beste Public Cloud",
+                        "Was ist die beste Cloud",
+                        "Welche ist die beste Public Cloud",
+                        "Welche ist die beste Cloud",
+                        "Was ist deine Lieblingscloud",
+                        "Welche ist deine Lieblingscloud",
+                        "Kennst du Public Clouds",
+                        "Lieblingscloud",
+                        "beste Cloud"
                     ]
                 },
                 {
                     "name": "Cloudifier",
                     "slots": [],
                     "samples": [
-                        "Who are the Cloudifiers",
-                        "What is the Cloudifier",
+                        "Wer sind die Cloudifier",
+                        "Was ist der Cloudifier",
+                        "der Cloudifier",
                         "Cloudifier"
                     ]
                 },
@@ -78,8 +83,21 @@
                     "name": "Digital",
                     "slots": [],
                     "samples": [
-                        "What are Digital Solutions",
+                        "Digitale Lösungen",
+                        "Was sind Digital Solutions",
+                        "Was ist die PU Digital Solutions",
+                        "Was sind Digitale Lösungen",
                         "Digital Solutions"
+                    ]
+                },
+                {
+                    "name": "DevOps",
+                    "slots": [],
+                    "samples": [
+                        "Was ist DevOps",
+                        "Kennst du DevOps",
+                        "Definiere DevOps",
+                        "Erkläre DevOps"
                     ]
                 },
                 {
@@ -87,8 +105,8 @@
                     "slots": [],
                     "samples": [
                         "DevOps as a service",
-                        "What is DevOps as a Service",
-                        "What is the DevOps toolchain",
+                        "Was ist DevOps as a Service",
+                        "Was ist die DevOps toolchain",
                         "DevOps toolchain"
                     ]
                 },
@@ -96,10 +114,19 @@
                     "name": "MultiCloud",
                     "slots": [],
                     "samples": [
-                        "DevOps as a service",
-                        "What is MultiCloud",
-                        "Do you have an example for multicloud",
-                        "an example for multicloud"
+                        "MultiCloud",
+                        "Was ist Multicloud",
+                        "Hast du ein Beispiel für MultiCloud",
+                        "ein Beispiel für MultiCloud"
+                    ]
+                },
+                {
+                    "name": "TalkPrinciples",
+                    "slots": [],
+                    "samples": [
+                        "Was denkst du über meine drei Prinzipien eines guten Vortrags",
+                        "Was hälst du von meines drei Prinzipien eins guten Vortrags",
+                        "einer Meinung über meine drei Prinzipien."
                     ]
                 }
             ],

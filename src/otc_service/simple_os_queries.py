@@ -22,9 +22,9 @@ def vm_count():
     t = len(counttotal)  
     a = len(countactive)  
     s = len(countstopped)  
-    print "Total: " + str(t)  
-    print "Active: " + str(a)  
-    print "Stopped: " + str(s)  
+    #print "Total: " + str(t)  
+    #print "Active: " + str(a)  
+    #print "Stopped: " + str(s)  
     return (t,a,s) 
 
 def total_volume_size():

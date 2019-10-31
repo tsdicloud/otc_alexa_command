@@ -1,14 +1,15 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "telekom cloud control",
+            "invocationName": "tee systems",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
                     "samples": [
-                        "Langweilig",
-                        "Abbruch",
-                        "Abbrechen"
+                        "I'm' bored",
+                        "cancel",
+                        "oh no wrong",
+                        "boring"
                     ]
                 },
                 {
@@ -18,12 +19,14 @@
                 {
                     "name": "AMAZON.StopIntent",
                     "samples": [
-                        "Fertig",
-                        "Ende",
-                        "Beenden",
-                        "Beende Cloud Control",
-                        "Beende Telekom Cloud Control",
-                        "Tschüss"
+                        "that's all",
+                        "Bye",
+                        "See you",
+                        "End",
+                        "End cloud control",
+                        "End telekom cloud control",
+                        "Leave telekom cloud control",
+                        "Exit"
                     ]
                 },
                 {
@@ -34,42 +37,45 @@
                     "name": "VMCountIntent",
                     "slots": [],
                     "samples": [
-                        "Anzahl VM",
-                        "Anzahl Server",
-                        "Anzahl Maschinen",
-                        "Wieviele e.c.s.",
-                        "Wieviele Server",
-                        "Wieviele Maschinen"
+                        "number of machines",
+                        "number of servers",
+                        "How many e.c.s.",
+                        "How many servers",
+                        "How many machines"
                     ]
                 },
                 {
                     "name": "VolCountIntent",
                     "slots": [],
                     "samples": [
-                        "Anzahl Volumes",
-                        "Anzahl Platten",
-                        "Wieviel Plattenspeicher",
-                        "Wieviele Volumes",
-                        "Wieviele Platten",
-                        "Wieviel Plattenplatz"
+                        "disks",
+                        "number of volumes",
+                        "storage size",
+                        "How many storage",
+                        "How many volumes",
+                        "How many disks",
+                        "How many disk space"
                     ]
                 },
                 {
                     "name": "BestCloud",
                     "slots": [],
                     "samples": [
-                        "Was ist die beste Telekom Cloud",
-                        "Was ist die beste Cloud",
-                        "beste Cloud"
+                        "What is the best cloud",
+                        "What is your favorite cloud",
+                        "Do you know public clouds",
+                        "favorite cloud",
+                        "best cloud"
                     ]
                 },
                 {
                     "name": "Cloudifier",
                     "slots": [],
                     "samples": [
-                        "der Cloudifier",
-                        "Wer sind die Cloudifier",
-                        "Was ist der Cloudifier",
+                        "Who are the Cloudifiers",
+                        "What is the Cloudifier",
+                        "What are Cloudifiers",
+                        "Do you know the Cloudifier",
                         "Cloudifier"
                     ]
                 },
@@ -77,10 +83,23 @@
                     "name": "Digital",
                     "slots": [],
                     "samples": [
-                        "Digitale Lösungen",
-                        "Was sind Digitale Solutions",
-                        "Was sind Digitale Lösungen",
+                        "What is PU Digital Solutions",
+                        "What is Digital Solutions",
+                        "What are Digital Solutions",
+                        "PU Digital Solutions",
                         "Digital Solutions"
+                    ]
+                },
+                {
+                    "name": "DevOps",
+                    "slots": [],
+                    "samples": [
+                        "What is DevOps",
+                        "Do you know DevOps",
+                        "Can you explain DevOps",
+                        "Explain DevOps",
+                        "Define DevOps",
+                        "DevOps"
                     ]
                 },
                 {
@@ -88,8 +107,8 @@
                     "slots": [],
                     "samples": [
                         "DevOps as a service",
-                        "Was ist DevOps as a Service",
-                        "Was ist die DevOps toolchain",
+                        "What is DevOps as a Service",
+                        "What is the DevOps toolchain",
                         "DevOps toolchain"
                     ]
                 },
@@ -97,15 +116,19 @@
                     "name": "MultiCloud",
                     "slots": [],
                     "samples": [
-                        "MultiCloud",
-                        "Was ist Multicloud",
-                        "Hast du ein Beispiel für MultiCloud",
-                        "ein Beispiel für MultiCloud"
+                        "What is MultiCloud",
+                        "Do you have an example for multicloud",
+                        "an example for multicloud"
                     ]
                 },
                 {
-                    "name": "AMAZON.NavigateHomeIntent",
-                    "samples": []
+                    "name": "TalkPrinciples",
+                    "slots": [],
+                    "samples": [
+                        "What do you think about my three principles of a good talk",
+                        "What is your opinion about my three principles of a good talk",
+                        "my three principles of a good talk"
+                    ]
                 }
             ],
             "types": []

@@ -1,7 +1,8 @@
 # __init__.py - Starting of our application  
-from flask       import Flask  
+from flask       import Flask, request
 from flask_ask   import Ask, statement, question, request as ask_request  
 from flask_babel import Babel, gettext
+from babel.core  import negotiate_locale
 
 from otc_service import simple_os_queries  
 #from OpenSSL import SSL
@@ -9,9 +10,6 @@ from otc_service import simple_os_queries
 # Initialize Flask  
 app = Flask(__name__)  
 app.config.from_pyfile('app.config')
-# supported = app.config.get('BABEL_SUPPORTED_LOCALES', ['en', 'zh'])
-# default = app.config.get('BABEL_DEFAULT_LOCALE', 'en')
-
 
 # Initialize Flask Ask and assign URL  
 ask   = Ask(app, "/otc_control")  
@@ -19,15 +17,22 @@ babel = Babel(app)
 
 # implement language matching method for alexa requests
 @babel.localeselector
-def get_locale():
-    language = reduce( lambda l1, l2: l1 if len(l2) < len(l1) else l2, 
-                            filter( lambda l: ask_request.locale.find(l) > -1,
-                            app.config['BABEL_ASK_LOCALES'].keys()), 
-                      app.config['BABEL_DEFAULT_LOCALE'])
-    app.logger.debug("Selected language= {}".format(language))
+def get_current_locale():
+    if hasattr(ask_request, 'locale'):
+        #preferred = [x.replace('-', '_') for x in ask_request.locale.values()]
+        preferred = [ ask_request.locale.replace('-', '_')]
+    else:
+        preferred = [app.config['BABEL_DEFAULT_LOCALE']]
+    language = negotiate_locale(preferred, app.config['BABEL_ASK_LOCALES'])
+    app.logger.debug("Selected language={}".format(language))
     app.logger.debug(app.config['BABEL_TRANSLATION_DIRECTORIES'])
     return language
-  
+
+#@app.before_request
+#def before():
+#    app.logger.debug(request.headers)
+#    app.logger.debug(request.get_data(as_text=True))
+
 # Set a useful response for the root  
 @app.route('/')  
 def homepage():  
@@ -48,19 +53,19 @@ def start_skill():
 def vm_count():  
     count = simple_os_queries.vm_count()  
     count_msg = gettext('servers {total}, running {run}, stopped {stopped}').format(total=count[0],run=count[1], stopped=count[2]).encode('utf-8')
-    return question(count_msg)
+    return statement(count_msg)
 
 @ask.intent("VolCountIntent")
 def vol_count():
     volsize = simple_os_queries.total_volume_size()
     volsize_msg = gettext('{num} volumes, {size} size, {unused} unused').format(num=volsize[0],size=volsize[1],unused=volsize[2]).encode('utf-8')
-    return question(volsize_msg)
+    return statement(volsize_msg)
 
 # Define shutdown message  
 @ask.intent("AMAZON.StopIntent")
 @ask.intent("AMAZON.CancelIntent")
 def shutdown():
-    bye_text=gettext("Bye.").encode('utf-8')
+    bye_text=gettext("Bye").encode('utf-8')
     return statement(bye_text)
  
 @ask.intent('BestCloud')  
@@ -79,14 +84,23 @@ def multicloud(dummy):
     return statement(text) 
 
 @ask.intent('Digital')  
-def digital(dummy):  
-    text = gettext('Digital').encode('utf-8')
-    #import pdb; pdb.set_trace()  
+def digital(dummy):
+    text = gettext('Digital')
+    return statement(text) 
+
+@ask.intent('DevOps')  
+def devops(dummy):  
+    text = gettext('DevOps').encode('utf-8')  
     return statement(text) 
 
 @ask.intent('DevOpsService')  
 def devopsaas(dummy):  
     text = gettext('DevOpsService').encode('utf-8')  
+    return statement(text) 
+
+@ask.intent('TalkPrinciples')  
+def talkprinciples(dummy):  
+    text = gettext('TalkPrinciples').encode('utf-8')  
     return statement(text) 
 
 @app.route('/<path:dummy>')  

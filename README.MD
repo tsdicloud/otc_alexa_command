@@ -32,7 +32,7 @@ pybabel init -i messages.pot -d translations -l de
 Update the language label translation file with new/chaged labels:
 ```
 cd src
-pybabel update -i messages.pot -d src/translations 
+pybabel update -i messages.pot -d translations 
 ```
 
 Finally, compile the messages:

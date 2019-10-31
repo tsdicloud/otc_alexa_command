@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-28 09:17+0000\n"
+"POT-Creation-Date: 2019-10-31 17:59+0000\n"
 "PO-Revision-Date: 2018-04-21 12:36+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -16,66 +16,88 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.7.0\n"
 
-#: main.py:43
+#: main.py:48
 msgid "online"
-msgstr "Your Open Telekom Cloud Cntrol is ready for commands."
+msgstr "Yes, please."
 
-#: main.py:50
+#: main.py:55
 msgid "servers {total}, running {run}, stopped {stopped}"
 msgstr ""
 "Your tenant manages {total} machines, where {run} are running and "
 "{stopped} are stopped."
 
-#: main.py:56
+#: main.py:61
 msgid "{num} volumes, {size} size, {unused} unused"
 msgstr ""
 "Your tenant manages {num} volumes with a total of {size} Gigabyte , "
 "{unused} volumes are unused"
 
-#: main.py:63
-msgid "Bye."
-msgstr ""
-"I am so sad that you leave Telekom Cloud Control. I hope I will hear you "
-"soon again."
-
 #: main.py:68
-msgid "The best cloud"
-msgstr "i like A.W.S., Azure or v.Cloud. But I love Open telekom Cloud."
+msgid "Bye"
+msgstr ""
 
 #: main.py:73
-msgid "Cloudifier"
+msgid "The best cloud"
 msgstr ""
-"Aren't these the people who can migrate any application to any cloud? And"
-" the are eperts for containers, DevOps and Magenta Ducks."
+"<speak>i like AWS, Azure or vCloud. But I love the <emphasis>Open Telekom"
+" Cloud</emphasis>.</speak>"
 
 #: main.py:78
-msgid "MultiCloud"
+msgid "Cloudifier"
 msgstr ""
-"I am MultiCloud myself.You talk to AWS, but the service comes from Open "
-"Telekom Cloud."
+"<speak><emphasis level=\"moderate\">Aren't these the people who can "
+"migrate any application to any cloud? They are also experts for "
+"infrastructure as code, containers and Magenta Ducks.</emphasis></speak>"
 
 #: main.py:83
-msgid "Digital"
+msgid "MultiCloud"
 msgstr ""
-"T Systems does not only deliver platforms and infrastructure.In Digital "
-"Solutions, we have amazing collegues, burning to accompany customers on "
-"their path into the digital world. We have DevOps experts, who know how "
-"to deliver really fast and bring one of the most modern Devops toolchains"
-" in the backpack. We have architects and consultants, not only have "
-"clouds like Open Telekom Cloud, AWS, Azure or Google Cloud under complete"
-" control. They help also pragmatically to exploit the business benefits "
-"of cloud fastly, savely and with reasonable costs. or to cite our boss: "
-"we are the plumbers of Digitization!"
+"I am MultiCloud myself. You talk to A.W.S., but the service comes from "
+"our Open Telekom Cloud."
 
 #: main.py:88
-msgid "DevOpsService"
+msgid "Digital"
 msgstr ""
-"Isn´t this DevOps Toolchain of T-Systems bringing all the neccessary "
-"DevOps DevOps tools to your cloud with the push of a button."
+"<speak><emphasis level=\"moderate\">T Systems does not only deliver "
+"platforms and infrastructure. In Digital Solutions, we have amazing "
+"people, burning to accompany customers on their path into the digital "
+"world. We have DevOps experts, who know how to deliver really fast and "
+"bring one of the most modern Devops toolchains in the backpack. We have "
+"cloud architects and consultants. They know how to effectively use clouds"
+" like Open Telekom Cloud, A.W.S., Azure or Google Cloud and help you to "
+"get cloud native pragmatically. Or as our boss says: we are the plumbers "
+"of the Digital Transformation!</emphasis></speak>"
 
 #: main.py:93
+msgid "DevOps"
+msgstr ""
+"<speak><emphasis level=\"moderate\">DevOps is the discipline of "
+"continuously optimizing the delivery speed of information technology "
+"towards early feedback of users. LEAN, Agile and cross-functional teams "
+"are the strong pillars of DevOps. Success is measured by improved lead "
+"time, delivery frequency, mean time to repair and change failure "
+"rate.</emphasis></speak>"
+
+#: main.py:98
+msgid "DevOpsService"
+msgstr ""
+"<speak><emphasis level=\"moderate\">Isn´t this the DevOps Toolchain of "
+"T-Systems bringing all the neccessary DevOps tools to you on your "
+"preferred cloud with the push of a button.</emphasis></speak>"
+
+#: main.py:103
+msgid "TalkPrinciples"
+msgstr ""
+"<speak>You really have improved over the last few years using these "
+"principles. <emphasis level=\"strong\">But there is still enough room for"
+" improvements.</emphasis></speak>"
+
+#: main.py:108
 msgid "Uups"
 msgstr "uups"
+
+#~ msgid "Bye."
+#~ msgstr ""
 
